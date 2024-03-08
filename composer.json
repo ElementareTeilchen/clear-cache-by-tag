@@ -1,0 +1,28 @@
+{
+    "name": "elementareteilchen/clear-cache-by-tag",
+    "description": "Add possibility to clear TYPO3 caches by tag using console command or scheduler task",
+    "type": "typo3-cms-extension",
+    "version": "1.0.0",
+    "license": [
+        "GPL-2.0-or-later"
+    ],
+    "authors": [
+        {
+            "name": "Sebastian Müller",
+            "email": "sebastian.mueller@elementare-teilchen.de"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^11.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Elementareteilchen\\ClearCacheByTag\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "clear_cache_by_tag"
+        }
+    }
+}

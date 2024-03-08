@@ -1,0 +1,15 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+  Elementareteilchen\ClearCacheByTag\:
+    resource: '../Classes/*'
+    exclude: '../Classes/Domain/Model/*'
+  Elementareteilchen\ClearCacheByTag\Command\ClearByTag:
+    tags:
+      -
+        name: console.command
+        command: 'clear-cache-by-tag:clearByTag'
+        description: 'Clear TYPO3 caches by cache tag'
+        schedulable: true
