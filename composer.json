@@ -6,6 +6,12 @@
     "license": [
         "GPL-2.0-or-later"
     ],
+    "keywords": [
+        "TYPO3",
+        "extension",
+        "cache",
+        "cache tags"
+    ],
     "authors": [
         {
             "name": "Sebastian Müller",
