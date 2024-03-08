@@ -17,8 +17,8 @@ Call command via console and define cache tags to clear.
 Multiple cache tags can be provided via comma separated list.
 
 ```bash
-bin/typo3 clear-cache-by-tag:clearByTag tag1
-bin/typo3 clear-cache-by-tag:clearByTag tag1,tag2,tag3
+vendor/bin/typo3 clear-cache-by-tag:clearByTag tag1
+vendor/bin/typo3 clear-cache-by-tag:clearByTag tag1,tag2,tag3
 ```
 
 ### Scheduler
